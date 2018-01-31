@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain Group Finder", "DomainGroupFinder\Domain Group Finder.csproj", "{B8D4A75B-3B99-4C6A-B04B-871FE2EBE38A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupDomainGroupFinder", "SetupDomainGroupFinder\SetupDomainGroupFinder.vdproj", "{F69C27A7-35DF-42BC-A48B-D509E4E52DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupFinderTests", "GroupFinderTests\GroupFinderTests.csproj", "{B36444CE-5A98-4194-B6EB-80665B18C3B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D4A75B-3B99-4C6A-B04B-871FE2EBE38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D4A75B-3B99-4C6A-B04B-871FE2EBE38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D4A75B-3B99-4C6A-B04B-871FE2EBE38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D4A75B-3B99-4C6A-B04B-871FE2EBE38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69C27A7-35DF-42BC-A48B-D509E4E52DCD}.Debug|Any CPU.ActiveCfg = Debug
+		{F69C27A7-35DF-42BC-A48B-D509E4E52DCD}.Debug|Any CPU.Build.0 = Debug
+		{F69C27A7-35DF-42BC-A48B-D509E4E52DCD}.Release|Any CPU.ActiveCfg = Release
+		{F69C27A7-35DF-42BC-A48B-D509E4E52DCD}.Release|Any CPU.Build.0 = Release
+		{B36444CE-5A98-4194-B6EB-80665B18C3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36444CE-5A98-4194-B6EB-80665B18C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36444CE-5A98-4194-B6EB-80665B18C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36444CE-5A98-4194-B6EB-80665B18C3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

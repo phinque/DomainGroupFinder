@@ -63,7 +63,7 @@ namespace Domain_Group_Finder
                 for (int i = 0; i < entriesRead; i++)
                 {
                     RetGroups[i] = (Netapi32.LOCALGROUP_USERS_INFO_0)Marshal.PtrToStructure(iter, typeof(Netapi32.LOCALGROUP_USERS_INFO_0));
-                    iter = (IntPtr)((int)iter + Marshal.SizeOf(typeof(Netapi32.LOCALGROUP_USERS_INFO_0)));
+                    iter = (IntPtr)((long)iter + Marshal.SizeOf(typeof(Netapi32.LOCALGROUP_USERS_INFO_0)));
                     userGroups.Add(RetGroups[i].groupname);
                 }
                 Netapi32.NetApiBufferFree(intPtr);
